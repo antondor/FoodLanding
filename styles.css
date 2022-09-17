@@ -1,0 +1,139 @@
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro Black'), local('Sofia-Pro-Black'),
+        url('SofiaProBlack.woff2') format('woff2'),
+        url('SofiaProBlack.woff') format('woff'),
+        url('SofiaProBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro Ultra Light'), local('Sofia-Pro-Ultra-Light'),
+        url('SofiaProUltraLight.woff2') format('woff2'),
+        url('SofiaProUltraLight.woff') format('woff'),
+        url('SofiaProUltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+  }
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #f9f1e6;
+}
+
+.container {
+	max-width: 1214px;
+	margin: 0px auto;
+}
+
+.header__row {
+    display: flex;
+    align-items: center;
+    height: 136px;
+}
+
+.header__menu {
+    margin-left: 70px;
+    flex: 1 1 auto;
+}
+
+.header__link{
+    font-family: 'Sofia Pro';
+    font-weight: 900;
+    display: inline;
+    font-size: 23px;
+    color: #004529;
+    padding-left: 46px;
+}
+
+.header__button {
+    background-color: #FEBC10;
+    padding: 17px 27px;
+    border-radius: 0.75em;
+    font-family: 'Sofia Pro';
+    font-weight: 900;
+    font-size: 23px;
+    color: #004529;
+}
+
+.second {
+    overflow: hidden;
+    background-color: #F5CEE3;
+}
+
+.second__row {
+    display: flex;
+    align-items: center;
+    height: 567px;
+    max-width: 554;
+}
+
+.second__left {
+    position: relative;
+}
+
+.second__left h1 {
+    font-size: 110px;
+    font-family: 'Sofia Pro';
+    font-weight: 900;
+    color: #004529;
+    position: absolute;
+    max-width: 545px;
+    max-height: 370px;
+    top: 125px;
+    left: 50px;
+    text-align: center;
+
+}
+
+.second__right img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.last {
+    height: 321px;
+    background-color: #FBBD14;
+    font-family: 'Sofia Pro';
+    color: #02422A;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.last__title {
+    font-size: 64px;
+    max-width: 570px;
+    font-weight: 900;
+}
+
+.last__text {
+    font-size: 20px;
+    max-width: 570px;
+    font-weight: 200;
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro Ultra Light'), local('Sofia-Pro-Ultra-Light'),
+        url('SofiaProUltraLight.woff2') format('woff2'),
+        url('SofiaProUltraLight.woff') format('woff'),
+        url('SofiaProUltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+  }
